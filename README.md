@@ -2,6 +2,8 @@
 
 Turns the **HDMI port of a Proxmox node** into a dashboard screen, with no extra Raspberry Pi and no desktop environment. The node auto-logs in a locked-down `kiosk` user on the console, which starts **[cage](https://github.com/cage-kiosk/cage)** (a minimal Wayland kiosk compositor) running Google Chrome full-screen.
 
+<p align="center"><img src="images/rack-photo.jpg" width="330" alt="The kiosk screen in the rack"></p>
+
 Two modes:
 
 | Mode | Shows |
